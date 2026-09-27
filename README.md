@@ -12,8 +12,6 @@ since they're reusable across almost any project as-is.
 ai_ml_project_templates/
 ├── config/
 │   └── config_template.yaml     # paths, logging settings, dataset locations
-├── docs/
-│   └── README.md                # this file
 ├── data/
 │   ├── raw/                     # original, untouched input files
 │   ├── processed/                # cleaned/encoded files, ready for modeling
@@ -25,6 +23,7 @@ ai_ml_project_templates/
 ├── inference/
 │   └── inference_template.py     # load a saved model, score new data
 └── logging_template.py           # shared logger, used by every script above
+└── README.md                # this file
 ```
 
 ## Suggested flow
